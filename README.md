@@ -1,28 +1,29 @@
-# 🦷 DentalAI Diagnosis
+# 🦷 SmartMolar-Dental-AI
 
-## **🔹 Project Overview**
-**DentalAI Diagnosis** is an AI-powered system that detects and analyzes dental conditions from **X-ray images**. It utilizes **YOLO (You Only Look Once)** for image detection and **LLMs (Large Language Models)** to provide comprehensive **treatment plans**. The application is deployed using **Streamlit** and made accessible via **LocalTunnel**.
+## 🔹 Project Overview
+**SmartMolar** is an AI-powered application that identifies and evaluates dental conditions from **X-ray images**. It integrates **YOLO (You Only Look Once)** for image-based detection and uses **Large Language Models (LLMs)** to deliver detailed **treatment recommendations**. The system is deployed with **Streamlit** and made remotely accessible via **LocalTunnel**.
 
-## **🔹 Features**
-✅ **Dental Condition Detection** using YOLO
-✅ **Treatment Plan Generation** with LLMs (GPT-3.5 / LLaMA-3)
-✅ **Document Retrieval (RAG)** for evidence-based recommendations
-✅ **User-Friendly Web Interface** via Streamlit
-✅ **Remote Accessibility** using LocalTunnel
+## 🔹 Features
+✅ Accurate **dental condition detection** using YOLO  
+✅ AI-generated **treatment plans** with GPT-3.5 or LLaMA-3  
+✅ **RAG-based document retrieval** for evidence-backed suggestions  
+✅ Intuitive **Streamlit web interface** for easy interaction  
+✅ **Remote access** enabled through LocalTunnel  
 
-## **🔹 Tech Stack**
-- **Deep Learning Model:** YOLO (Ultralytics)
-- **Large Language Models:** GPT-3.5, LLaMA-3 (Groq API)
-- **Embedding Model:** HuggingFace (BAAI/bge-small-en-v1.5)
-- **Document Processing:** LlamaIndex (VectorStoreIndex)
-- **Web Framework:** Streamlit
-- **Deployment:** LocalTunnel, Google Colab
+## 🔹 Tech Stack
+- **Object Detection:** YOLO (Ultralytics)  
+- **Language Models:** GPT-3.5, LLaMA-3 (via Groq API)  
+- **Embedding Model:** BAAI/bge-small-en-v1.5 (HuggingFace)  
+- **Vector Indexing:** LlamaIndex with VectorStoreIndex  
+- **Web App Framework:** Streamlit  
+- **Deployment Tools:** LocalTunnel, Google Colab  
+
 
 ## **🔹 Installation & Setup**
 ### **1️⃣ Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/DentalAI-Diagnosis.git
-cd DentalAI-Diagnosis
+git clone https://github.com/KaranS2111/SmartMolar-Dental-AI
+cd SmartMolar-Dental-AI
 ```
 
 ### **2️⃣ Install Dependencies**
