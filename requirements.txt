@@ -1,0 +1,9 @@
+llama-index-core
+llama-index-readers-file
+llama-index-tools-wolfram-alpha
+crewai[tools]
+llama-index-embeddings-huggingface
+llama-index-llms-groq
+langchain_groq
+ultralytics
+
