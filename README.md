@@ -1,7 +1,7 @@
 # 🦷 SmartMolar-Dental-AI
 
 ## 🔹 Project Overview
-**SmartMolar** is an AI-powered application that identifies and evaluates dental conditions from **X-ray images**. It integrates **YOLO (You Only Look Once)** for image-based detection and uses **Large Language Models (LLMs)** to deliver detailed **treatment recommendations**. The system is deployed with **Streamlit** and made remotely accessible via **LocalTunnel**.
+**SmartMolar** is an AI-powered application that identifies and evaluates dental conditions from **X-ray images**. It integrates **YOLO (You Only Look Once)** for image-based detection and uses **Large Language Models (LLMs)** to deliver detailed **treatment recommendations**. The system is yet to be deployed but is planned with **Streamlit** and to be made remotely accessible via **LocalTunnel**.
 
 ## 🔹 Features
 ✅ Accurate **dental condition detection** using YOLO  
@@ -16,7 +16,7 @@
 - **Embedding Model:** BAAI/bge-small-en-v1.5 (HuggingFace)  
 - **Vector Indexing:** LlamaIndex with VectorStoreIndex  
 - **Web App Framework:** Streamlit  
-- **Deployment Tools:** LocalTunnel, Google Colab  
+- **Deployment Tools:** LocalTunnel (Expected) 
 
 
 ## **🔹 Installation & Setup**
@@ -66,5 +66,4 @@ npx localtunnel --port 8501
 ## **🔹 License**
 📜 This project is licensed under the **MIT License**.
 
-🚀 **Let's revolutionize dental care with AI!**
 
